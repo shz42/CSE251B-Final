@@ -168,3 +168,6 @@ internal/*
 wandb
 depot/*
 coqui_recipes/*
+
+recipes/leclec/data/*
+recipes/leclec/data.tar.gz
