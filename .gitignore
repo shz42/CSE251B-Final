@@ -1,5 +1,4 @@
 __pycache__/
-Data/*/*
-./Audio/
-./Text/
-./data/
+data/
+Text/
+Video/
