@@ -2,7 +2,7 @@ WadaSNR/
 .idea/
 *.pyc
 .DS_Store
-./__init__.py
+# ./__init__.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -168,6 +168,3 @@ internal/*
 wandb
 depot/*
 coqui_recipes/*
-
-recipes/leclec/data/*
-recipes/leclec/data.tar.gz

@@ -1,5 +1,5 @@
-__*
+__pycache__/
 Data/*/*
-Audio/*
-Text/*
-data/*
+./Audio/
+./Text/
+./data/
