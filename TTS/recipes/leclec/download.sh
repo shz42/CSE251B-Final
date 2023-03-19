@@ -1,4 +1,8 @@
 pip install gdown
 
-gdown https://drive.google.com/uc?id=1gKnXXjs02Vggp-MnbdoEQ-4uXGt5eU30
-unzip -q data.zip
+python -c "
+import gdown
+gdown.download_folder('https://drive.google.com/drive/folders/1B9GAKpdOZo3Run9THNjcaLuMO7TNdQYW')
+"
+
+unzip data/data.zip
