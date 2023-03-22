@@ -130,6 +130,7 @@ def wav_to_spec(y, n_fft, hop_length, win_length, center=False):
         pad_mode="reflect",
         normalized=False,
         onesided=True,
+        # return_complex=True,
     )
 
     spec = torch.sqrt(spec.pow(2).sum(-1) + 1e-6)

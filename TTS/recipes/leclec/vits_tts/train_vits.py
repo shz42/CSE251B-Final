@@ -13,6 +13,7 @@ output_path = os.path.dirname(os.path.abspath(__file__))
 dataset_config = BaseDatasetConfig(
     formatter="ljspeech", meta_file_train="metadata.txt", path=os.path.join(output_path, "../data/")
 )
+
 audio_config = VitsAudioConfig(
     sample_rate=22050, win_length=1024, hop_length=256, num_mels=80, mel_fmin=0, mel_fmax=None
 )
@@ -21,7 +22,7 @@ config = VitsConfig(
     audio=audio_config,
     run_name="lec-tuning",
     batch_size=32,
-    eval_batch_size=16,
+    eval_batch_size=32,
     num_loader_workers=8,
     num_eval_loader_workers=4,
     run_eval=True,

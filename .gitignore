@@ -3,3 +3,5 @@ data/
 Text/
 Video/
 data.zip
+.ipynb_checkpoints/
+.vscode/

@@ -1,4 +1,7 @@
-data.zip
+**/*.zip
 data/*
+filtered/*
 __MACOSX/*
-**/lec-tuning/*
+**/lec-tuning-March*
+**/vits_vctk-March*
+**/phoneme_cache/*
