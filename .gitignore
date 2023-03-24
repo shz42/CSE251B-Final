@@ -2,6 +2,7 @@ __pycache__/
 data/
 Text/
 Video/
+img/
 data.zip
 .ipynb_checkpoints/
 .vscode/
